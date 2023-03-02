@@ -9,5 +9,7 @@ public static void main(String[] args) {
 		s1=s1+s.charAt(i);
 	}
 	System.out.println(s1);
+	boolean contains=s.contains("a");
+	System.out.println(contains);
 }
 }
